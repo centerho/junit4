@@ -391,6 +391,7 @@
 
     <reporting>
         <plugins>
+        
             <plugin>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
                 <version>2.8</version>
@@ -459,6 +460,13 @@
                     </reportSet>
                 </reportSets>
             </plugin>
+            
+            <plugin>
+        		<groupId>org.apache.maven.plugins</groupId>
+      			<artifactId>maven-pmd-plugin</artifactId>
+       			<version>3.11.0</version>
+      		</plugin>
+            
         </plugins>
     </reporting>
 
